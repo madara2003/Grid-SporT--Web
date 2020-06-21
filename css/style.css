@@ -101,6 +101,12 @@
 .list li a:hover {
     color: var(--primary-color) !important;
 }
+
+.page-container{
+    display: grid;
+   grid-template-columns: 5fr 2fr;
+   grid-gap: 1rem;
+}
  /* Navigation */
  #main-nav {
      background: #fff;
@@ -202,6 +208,8 @@ justify-self: center;
     grid-column: 2 /span 2;
 }
 
+
+
 /* Footer */
 #main-footer {
     background: var(--dark-color);
@@ -237,4 +245,8 @@ justify-self: center;
 #main-footer .footer-container input[type='submit'] {
     width: 90%;
 } 
+
+#about-section aside {
+    text-align: center;
+}
 
